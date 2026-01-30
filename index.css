@@ -1,0 +1,285 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.begin{
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    position:sticky;
+    top: 0;   
+}
+.fa-solid {
+    margin-top: 16px;
+    font-size: 27px;
+    margin-right: 10px;
+    
+}
+.begin1{
+    margin-top: 10px;
+    display: flex;
+    color: navy;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.begin2 li a{
+    
+    text-decoration: none;
+    color:black;
+    
+}
+.begin2{
+     display: flex;
+     gap: 40px;
+     justify-content: space-between;
+     margin-top: 30px;
+     list-style: none;
+     font-size: 20px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .begin2 li a:hover{
+    color: white;
+    background-color: navy;
+    border-radius: 5px;
+    padding: 5px;
+    
+ }
+ 
+.mid{
+    background-image: url(sky.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    background-position: center;
+    margin: 0;
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.mid h1{
+    font-size: 50px;
+}
+.mid p{
+    font-size: 20px;
+}
+.mid button{
+    background-color: orangered;
+    color: white;
+    border-radius:30px ;
+    border-style: none;
+    height: 40px;
+    width: 180px;
+    font-size:15px
+
+}
+.head{
+    text-align: center;
+    color: navy;
+   
+}
+.head h1{
+     text-decoration: underline orangered;
+     
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 20px;
+}
+.container2{
+     height: 500px;
+    width: 350px;
+     text-align: center;
+     box-shadow: 0 2px 2px grey;
+     border-radius: 30px;
+     object-fit: cover;
+     
+}
+.container2 img{
+    height: 200px;
+    width: 350px;
+    
+
+}
+.container2 button{
+    background-color: orangered;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-style: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+.container3{
+ height: 500px;
+    width: 350px;
+      text-align: center;
+       box-shadow: 0 2px 2px grey;
+     border-radius: 30px;
+     object-fit: cover;
+     
+     
+}
+.container2 h3{
+    color: orangered;
+}
+.container3 h3{
+    color: orangered;
+}
+.container4 h3{
+    color: orangered;
+}
+.container2 i{
+    color: yellow;
+}
+.container3 i{
+    color: yellow;
+}
+.container4 i{
+    color: yellow;
+}
+.container3 img{
+        height: 200px;
+    width: 350px;
+}
+.container3 button{
+    background-color: orangered;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-style: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+.container4{
+ height: 500px;
+    width: 350px;
+      text-align: center;
+       box-shadow: 0 2px 2px grey;
+     border-radius: 30px;
+     object-fit: cover;
+     
+}
+.container4 img{
+        height: 200px;
+    width: 350px;
+}
+.container4 button{
+    background-color: orangered;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-style: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+}
+.destination button{
+    background-color: orangered;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-style: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+}
+.destination{
+    text-align: center;
+    margin-top: 40px;
+}
+.end{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 30px;
+    height: 350px;
+
+
+}
+.end1{
+    height: 30px;
+    width: 300px;
+}
+.end1 h2{
+    color: orangered;
+
+}
+.end1 p{
+    color: white;
+    font-size: 20px;
+}
+.end2{
+    height: 30px;
+    width: 300px; 
+}
+.end2 h2{
+    color: orangered;
+} 
+.end22 li a{
+    color:white;
+    border-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.end3{
+    height: 30px;
+    width: 300px;
+}
+.end3 h2{
+    color: orangered;
+}
+.end33 li a{
+    color: white;
+    border-style: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.end4 h2{
+    color: orangered;
+}
+
+.end4{
+    height: 30px;
+    width: 300px;
+}
+.end4 p{
+    color: white;
+    font-size: 20px;
+}
+.end4 input{
+    height: 40px;
+    width: 250px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.end4 button{
+     height: 40px;
+    width: 250px;
+    background-color: orangered;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-style: none;
+}
+.all{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+.end22 li a:hover{
+    color: orangered;
+}
+.end33 li a:hover{
+    color: orangered;
+} 
+.end{
+    margin-top: 40px;
+}
